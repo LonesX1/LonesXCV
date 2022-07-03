@@ -1,0 +1,109 @@
+*{margin: 0; padding: 0; font-family: 'Fira Code', monospace;} 
+.container{width: 100%; max-width: 1200px; margin: 0 auto; height: 100vh; position: relative;}
+
+/* Header Navigation Panel */
+
+.navig_panel_header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%; max-width: 1200px; height: 50px;
+    margin-top: 20px;
+}
+.navig_logo_header{
+    font-size: 33px; font-weight: 400; 
+    color: #e13fa7;
+}.Easter_Egg{color: #171f2d; background-color: #0bb8fc; 
+    text-decoration: none;}
+.nav_button_style{ color: #0bb8fc; font-size: 15px;
+    text-decoration: none;} 
+.nav_button_style_list{list-style: none; display: inline; margin-left: 10px;}
+.what_F_it{color: #d43b9e;}
+.navig_button_header{margin-top: 10px;}
+.fa-not-equal, .fa-plus, .fa-greater-than-equal, 
+.fa-percent, .fa-divide, .fa-less-than-equal{color: #4fcc5a; font-size: 13.5px;}
+
+/* Style Header Background */
+
+.header{
+    background-color: #0d152b;
+    height: 90px;
+    overflow: hidden;
+}
+
+/* Style Main Background */
+
+.main_first{
+    background-color: #1f3f59;
+    height: 600px;
+}
+
+/* Main Info */
+
+.main{background: #012f50;}
+.section_aboutme{width: 100%; max-width: 1200px; height: 600px;}
+.am_foto_first{
+    background-color: #1b799e;
+    width: 100%; max-width: 320px; height: 492px;
+    position: absolute;
+    margin-top: 40px; left: 40px;
+}
+.avatarka{
+    width: 280px; height: 482px;
+    margin-top: 3px;
+    margin-left: 20px;
+    border: 2px solid #00ff00;
+}
+.am_profession{
+    background: #000000;
+    width: 100%; max-width: 740px; height: 60px;
+    margin-top: 27px; 
+}
+.am_profession_text{
+    font-size: 40px;
+    text-decoration: none; color: #00ff00;
+}
+.js{
+    font-size: 45.5px;
+    text-decoration: none; color: #000000; background: #ff00ff;
+    position: absolute; right: 35px;
+}
+.am_first_block{
+    width: 100%; max-width: 345px; height: 365px; background: #034250;
+    left: 10px; position: absolute;
+}
+.am_secondly_block{
+    width: 100%; max-width: 345px; height: 365px; background: #034250;
+    right: 10px; position: absolute;
+}
+.section_aboutme_all{
+    display: flex;
+}
+.section_info_aboutme{
+    width: 100%; max-width: 734px; height: 492px;
+    position: absolute; 
+    background-color: #1b799e;
+    right: 45px; margin-top: 40px;
+    display: block;
+}
+.link_github{color: #6422ff; text-decoration: none;}
+.am_block_all{
+    position: relative;
+    margin-top: 17px;
+}
+.list_aboutme{
+    list-style: none;
+    color: #6422ff; line-height: 1.9em;
+}
+.name1{color: #fe7d9e;} .hello_guys{color: #06ff2f;}
+.am_secondlyblock_list{list-style: none;}
+.list_whatitis1{
+    color: #06ff2f;
+}
+.list_whatitis2{Color: #6422ff; font-size: 15px; line-height: 1.4em;}
+
+/* section 2 */
+
+.section_exemple{
+    width: 100%; max-width: 1200px; height: 600px;
+    background-color: #0bb8fc;
+}

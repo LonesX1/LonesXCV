@@ -83,8 +83,9 @@
     width: 100%; max-width: 734px; height: 492px;
     position: absolute; 
     background-color: #1b799e;
-    right: 45px; margin-top: 40px;
+    margin-top: 40px;
     display: block;
+    margin-left: 435px;
 }
 .link_github{color: #6422ff; text-decoration: none;}
 .am_block_all{
@@ -131,9 +132,18 @@
     width: 100%; max-width: 1140px; height: 78px;
     background-color: #1b799e;
     margin-bottom: 35px;
-    opacity: 0.5;
+    position: relative;
+    
+    
 }
-
+.link_st_block{
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    display: block;
+    position: absolute;
+    left: 20px; top: 2px;
+}
 
 /* footer */
 .footer{

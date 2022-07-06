@@ -1,0 +1,26 @@
+/* 1024px.852px laptop*/
+@media screen and (max-width:1024px){
+    .section_info_aboutme{height: 442px; width: 600px; margin-left: 385px;}
+    .am_first_block{height: 328px; width: 285px;}
+    .am_secondly_block{height: 328px; width: 285px;}
+    .am_profession_text{font-size: 32px;}
+    .list_aboutme{font-size: 13.7px;}
+    .list_whatitis2, .list_whatitis1{font-size: 13.3px;}
+    .am_foto_first{height: 442px;} .avatarka{height: 434px;}
+    .ex_st_head{font-size: 54px;}
+    .ex_st_block{width: 94.3%;}
+    .link_st_block{font-size: 30px;}
+}
+
+/* 768px.852px tablet */
+
+@media screen and (max-width:768px){
+    .am_foto_first{display: none;}
+    .section_info_aboutme{height: 442px; margin-left: 90px}
+    .am_first_block{height: 328px; width: 285px;}
+    .am_secondly_block{height: 328px; width: 285px;}
+    .am_profession_text{font-size: 32px;}
+    .list_aboutme{font-size: 13.7px;}
+    .list_whatitis2, .list_whatitis1{font-size: 13.3px;}
+    
+}

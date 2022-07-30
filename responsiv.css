@@ -22,5 +22,59 @@
     .am_profession_text{font-size: 32px;}
     .list_aboutme{font-size: 13.7px;}
     .list_whatitis2, .list_whatitis1{font-size: 13.3px;}
-    
+    .ex_st_text{font-size: 35px; top: 16px;}
+    .ex_st_head{font-size: 35px; align-items: center; }
+    .exclam{font-size: 61px;}
 }
+@media screen and (max-width:425px){
+    .nav_button_style{
+        font-size: 10px;
+    }
+    .section_info_aboutme{
+        width: 425px;
+        margin-left: 0px;
+        
+    }
+    .link_st_block{
+        left: 0px;
+        font-size: 13px;
+    }
+    
+    .ex_st_block_site{
+        left: 0px;
+        width: 360px;
+        height: 35px;
+    }
+    .ex_st_block{
+        width: 360px;
+        height: 260px;
+        margin-top: 80px;
+    }
+    .ex_st_head{
+        width: 425px;
+        left: 0px;
+    }
+    .section_exemple{
+        width: 425px;
+        height: 360px;
+    }
+    .ex_st_text{font-size: 18px; top: 13px;}
+    .ex_st_head{font-size: 20px; align-items: center; height: 50px;}
+    .exclam{font-size: 36px;}
+    .am_profession_text{font-size: 23px; margin-left: 5px; }
+    .am_profession{height: 30px; } .js{font-size: 23px;}
+    .section_info_aboutme{height: 900px;}
+    .section_aboutme{
+        height: 720px;
+    } 
+    .am_secondly_block{
+    margin-top: 300px; left: 35px;
+    width: 425px;
+    height: 280px;
+    }
+    .am_first_block{
+        width: 425px;
+        left: 35px;
+        height: 290px;
+    }
+} 

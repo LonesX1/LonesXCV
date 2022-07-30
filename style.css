@@ -39,7 +39,7 @@
 
 /* Main Info */
 
-.main{background: #012f50;}
+.main{background: #012f50; }
 .section_aboutme{width: 100%; max-width: 1200px; height: 600px;}
 .am_foto_first{
     background-color: #1b799e;
@@ -48,9 +48,9 @@
     margin-top: 40px; left: 40px;
 }
 .avatarka{
-    width: 280px; height: 482px;
+    width: 316px; height: 482px;
     margin-top: 3px;
-    margin-left: 20px;
+
     border: 2px solid #00ff00;
 }
 .am_profession{
@@ -81,7 +81,7 @@
 }
 .section_info_aboutme{
     width: 100%; max-width: 734px; height: 492px;
-    position: absolute; 
+    position: absolute;
     background-color: #1b799e;
     margin-top: 40px;
     display: block;
@@ -133,15 +133,12 @@
     background-color: #1b799e;
     margin-bottom: 35px;
     position: relative;
-    
-    
 }
 .link_st_block{
     color: white;
     font-size: 30px;
     text-decoration: none;
-    display: block;
-    position: absolute;
+
     left: 20px; top: 2px;
 }
 
@@ -149,6 +146,8 @@
 .footer{
     background: #2e304d;
     width: 100%; height: 20vh;
+    display: flex; 
+    align-items: center;
 }
 .container2{
     width: 100%; max-width: 1200px; margin: 0 auto;
